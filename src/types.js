@@ -42,15 +42,12 @@ sa.charCodeAt(1) // 68
 let words = sa.split(' ') // Array mit Elementen "hallo" und "welt"
 
 
-
-
-
 // template strings werden in back ticks ` definiert und können über mehrere Zeilen gehen.
 // Im String können dann Variablen eingebettet werden mit ${Variable}.
 let user = 'Du'
 let welcome = `Hallo ${user},
 Wie geht es dir?` // 'Hallo Du\nWie geht es dir?'
-
+console.log(welcome)
 
 
 //Boolean
@@ -89,12 +86,6 @@ let settings = {}
 settings.username = 'alberto'
 // Verschachtelte Objekte
 settings.position = {x: 12, y: 200}
-
-
-
-
-
-
 
 // Einige Beispiele
 typeof ub // 'undefined'

@@ -22,10 +22,6 @@ let canEnter = age >= 18 && sex === 'f'
 // || OR
 let canApply = age >= 18 && (sex === 'f' || sex === 'm')
 
-
-
-
-
 // for
 for (let i = 0; i < 10; i++) {
     console.log(i)
@@ -80,9 +76,6 @@ switch(a){
     default:
         throw new Error('unhandled case')
 }
-
-
-
 
 // try catch
 try{
